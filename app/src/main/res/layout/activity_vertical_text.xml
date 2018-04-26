@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.VerticalTextActivity">
+
+    <com.example.user.widget.VerticalTextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:columeSpacing="10dp"
+        app:text="子曰：“君子食无求饱，居无求安也已,敏于事而慎于言，
+就有道而正焉,可谓好学也已矣。"
+        app:textSize="18sp"
+        app:textSpace="2dp" />
+</LinearLayout>
